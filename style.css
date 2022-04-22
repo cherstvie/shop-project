@@ -109,6 +109,8 @@ body {
     border: none;
     background-color: transparent;
     color: #2c71b8;
+    width: 200px;
+    height: 40px;
     position: absolute;
     top: 0;
     bottom: 0;
