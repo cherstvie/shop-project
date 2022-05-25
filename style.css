@@ -24,7 +24,7 @@ body {
     margin-right: -15px;
 }
 
-.row:after, .menu:after {
+.row:after, .menu:after, .float-right:after {
     content: "";
     display: block;
     clear: both;
@@ -285,6 +285,34 @@ li:hover>a {
     background-position: center;
 }
 
+.float-right {
+    float: right;
+}
+
+.scale {
+    background-image: url(images/scale-blue.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2c71b8;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.like {
+    background-image: url(images/like-blue.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2c71b8;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 .parameter {
     font-size: 21px;
     font-weight: 700;
@@ -328,4 +356,11 @@ li:hover>a {
     color: #fff;
     font-size: 21px;
     font-weight: 700;
+}
+
+.bin-white {
+    background-image: url(images/bin-white.png);
+    width: 15px;
+    height: 17px;
+    display: inline-block;
 }
