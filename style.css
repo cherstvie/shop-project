@@ -241,15 +241,37 @@ li:hover>a {
 
 .filter {
     width: 270px;
-    height: 843px;
     background-color: rgba(255, 255, 255, 0.2);
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
 }
 
-.more-options {
-    color: #fff;
-    font-weight: 100;
+.bold-text {
+    font-weight: 700;
+}
+
+label::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
 }
 
 .nametag {
@@ -268,6 +290,10 @@ li:hover>a {
 
 .form-field {
     padding: 15px 15px 0 15px;
+}
+
+.filter-field {
+    padding-top: 45px;
 }
 
 .device-name {
@@ -416,4 +442,8 @@ li:hover>a {
     font-size: 21px;
     font-weight: 300;
     line-height: 100px;
+}
+
+.text-in-center {
+    text-align: center;
 }
