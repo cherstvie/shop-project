@@ -360,6 +360,11 @@ input[type="checkbox"] {
     margin-right: 10px;
 }
 
+.scale:hover {
+    background-image: url(images/scale-white.png);
+    background-color: #2c71b8;
+}
+
 .like {
     background-image: url(images/like-blue.png);
     background-repeat: no-repeat;
@@ -370,6 +375,11 @@ input[type="checkbox"] {
     border: 1px solid #2c71b8;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+.like:hover {
+    background-image: url(images/like-white.png);
+    background-color: #2c71b8;
 }
 
 .parameter {
